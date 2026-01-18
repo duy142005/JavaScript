@@ -7,6 +7,11 @@
     5) <= : bé hơn hoặc bằng.
     6) == : bằng nhau, Ko quan tâm kiểu dữ liệu.
     7) === : bằng nhau, So sánh giá trị và kiểu dữ liệu.
+
+    (*) phép toán với kiểu string
+    - Đối với phép cộng nếu có một toán hàng là một kiểu chuỗi 
+thì kết quả nhận được là một kiểu chuỗi, còn các phép toàn còn lại thì nó sẽ ưu
+tiên chuyển đổi sang số (number) để tính toán.
 */
 
 let a = 3;
